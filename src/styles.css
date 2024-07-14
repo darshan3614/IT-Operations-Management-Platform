@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* light gray background */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* make the app container full height */
+}
+
+.sidebar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #2E4053; /* dark blue-green color */
+  color: #fff;
+  padding: 10px;
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* add a subtle shadow */
+  border-radius: 0 0 10px 10px; /* add a curved bottom edge */
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  margin-right: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* add a subtle text shadow */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar li {
+  margin-right: 20px;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease; /* add a smooth transition effect */
+}
+
+.sidebar a:hover {
+  color: #ccc;
+}
+
+.sidebar a::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.sidebar a:hover::before {
+  opacity: 1;
+}
+
+.content {
+  padding: 20px;
+  margin-bottom: 50px; /* added to add space between content and sidebar */
+}
+
+.home-page {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.home-page h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.it-operations-page {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 20px;
+}
+
+.it-operations-page h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.it-operations-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.it-operations-page li {
+  margin-bottom: 20px;
+}
+
+.asset-management-page {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 20px;
+}
+
+.asset-management-page h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.asset-management-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.asset-management-page li {
+  margin-bottom: 20px;
+}
+
+.network-performance-page {
+  background-color: #f0f0f0; /* light gray background */
+  padding: 20px;
+}
+
+.network-performance-page h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.network-performance-page ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.network-performance-page li {
+  margin-bottom: 20px;
+}

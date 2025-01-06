@@ -1,0 +1,5 @@
+Steps
+1. Install Dependency - npm install
+2. Run React - npm start
+
+NOTE: Network Performance Page is not working (issue with axios)
